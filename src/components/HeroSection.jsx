@@ -198,11 +198,11 @@ const HeroSection = ({ featuredImages }) => {
                 Featuring both male and female models in fashion, editorial, and commercial work.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <button className="bg-white text-black px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-gray-100 transition-colors flex items-center justify-center cursor-pointer text-sm sm:text-base">
+                <button className="bg-white text-black px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-sm font-bold hover:bg-gray-100 transition-colors flex items-center justify-center cursor-pointer text-sm sm:text-base">
                   <span>View Portfolio</span>
                   <FaArrowRight className="ml-2 sm:ml-3 w-4 h-4 sm:w-5 sm:h-5" />
                 </button>
-                <button className="border-2 border-white/30 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-full font-bold hover:bg-white/10 transition-colors cursor-pointer text-sm sm:text-base">
+                <button className="border-2 border-white/30 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-sm font-bold hover:bg-white/10 transition-colors cursor-pointer text-sm sm:text-base">
                   Join Our Agency
                 </button>
               </div>
