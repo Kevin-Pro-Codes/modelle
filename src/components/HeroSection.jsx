@@ -187,29 +187,28 @@ const HeroSection = ({ featuredImages }) => {
             ))}
           </div>
           
-          {/* Hero Content */}
-          <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8 md:p-12 z-40">
-            <div className="max-w-2xl">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
-                Visionary <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">Artistry</span> in Every Frame
-              </h1>
-              <p className="text-sm sm:text-base md:text-xl text-gray-300 mb-4 sm:mb-6 md:mb-8">
-                International modeling agency showcasing diverse talent from around the world.
-                Featuring both male and female models in fashion, editorial, and commercial work.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <button className="bg-white text-black px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-sm font-bold hover:bg-gray-100 transition-colors flex items-center justify-center cursor-pointer text-sm sm:text-base">
-                  <span>View Portfolio</span>
-                  <FaArrowRight className="ml-2 sm:ml-3 w-4 h-4 sm:w-5 sm:h-5" />
-                </button>
-                <button className="border-2 border-white/30 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-sm font-bold hover:bg-white/10 transition-colors cursor-pointer text-sm sm:text-base">
-                  Join Our Agency
-                </button>
-              </div>
-            </div>
-          </div>
+       {/* Hero Content */}
+<div className="absolute bottom-0 left-0 right-0 z-40 px-4 sm:px-6 md:px-8 lg:px-12">
+  <div className="max-w-4xl mx-auto">
+    <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-3 sm:mb-4 md:mb-6 leading-tight tracking-tight">
+      Visionary <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">Artistry</span> in Every Frame
+    </h1>
+    <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 mb-3 sm:mb-4 md:mb-6 lg:mb-8 leading-relaxed">
+      International modeling agency showcasing diverse talent from around the world.
+      Featuring both male and female models in fashion, editorial, and commercial work.
+    </p>
+    <div className="flex flex-col xs:flex-row gap-2 sm:gap-3 md:gap-4">
+      <button className="bg-white text-black px-3 xs:px-4 sm:px-5 md:px-6 py-2 xs:py-3 sm:py-3 md:py-4 rounded-sm font-bold hover:bg-gray-100 transition-colors flex items-center justify-center cursor-pointer text-xs xs:text-sm sm:text-base">
+        <span>View Portfolio</span>
+        <FaArrowRight className="ml-1 xs:ml-2 sm:ml-3 w-3 h-3 xs:w-4 xs:h-4 sm:w-5 sm:h-5" />
+      </button>
+      <button className="border-2 border-white/30 text-white px-3 xs:px-4 sm:px-5 md:px-6 py-2 xs:py-3 sm:py-3 md:py-4 rounded-sm font-bold hover:bg-white/10 transition-colors cursor-pointer text-xs xs:text-sm sm:text-base">
+        Join Our Agency
+      </button>
+    </div>
+  </div>
+</div>
         </div>
-
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16">
           <div className="text-center p-4 sm:p-6 bg-gray-900/50 rounded-xl sm:rounded-2xl backdrop-blur-sm">
